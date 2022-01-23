@@ -2,6 +2,8 @@ FROM python:3
 
 WORKDIR /app
 
+RUN mkdir -p /app/raw-images
+
 COPY requirements.txt ./
 RUN pip install --upgrade --force-reinstall -r requirements.txt
 

@@ -11,5 +11,6 @@ services:
     command: python3 ./resize.py
     volumes:
       - .:/app:delegated
+      - ~/dev/jd-images:/app/raw-images:delegated
     networks:
       - default
