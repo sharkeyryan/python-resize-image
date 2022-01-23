@@ -1,0 +1,4 @@
+python-resize-image
+pillow
+python-dotenv
+requests
